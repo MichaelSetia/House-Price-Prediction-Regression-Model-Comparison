@@ -27,8 +27,18 @@ Notebook House_Price.ipynb menjalankan pipeline berikut secara berurutan:
 
 # Hasil & Perbandingan Model
 Model	MAE	MSE	R²
-Lars	39.256,54	2.341.737.000	0.0433
-Linear Regression	13.106,33	292.029.600	0.8807
-Gradient Boosting Regressor	11.969,57	269.872.100	0.8897
+| Model | MAE | MSE | R² Score |
+|:------|----:|----:|---------:|
+| Lars | 39,256.54 | 2,341,737,000 | 0.0433 |
+| Linear Regression | 13,106.33 | 292,029,600 | 0.8807 |
+| **Gradient Boosting Regressor** | **11,969.57** | **269,872,100** | **0.8897** |
 
 Gradient Boosting Regressor menjadi model dengan performa terbaik, dengan nilai R² ≈ 0.89 dan error (MAE) paling rendah dibanding dua model lainnya. Model inilah yang digunakan sebagai model final proyek.
+
+
+# Teknologi yang Digunakan
+Python 3
+Pandas & NumPy — manipulasi dan analisis data
+Scikit-learn — preprocessing, training, dan evaluasi model
+Seaborn & Matplotlib — visualisasi data
+Joblib & Pickle — penyimpanan model
